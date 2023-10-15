@@ -3,5 +3,6 @@ filterInput.addEventListener('keyup', filterNames);
 
 function filterNames() {
     const filterText = filterInput.value.toUpperCase();
-    console.log(filterText);
+    const ul = document.getElementById('names');
+    const li = ul.querySelectorAll('li.collection-item');
 }
